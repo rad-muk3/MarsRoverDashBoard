@@ -1,0 +1,105 @@
+/* -------------------  MOBILE  --------------------- */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+  background: rgb(232, 232, 232);
+}
+
+main {
+  flex: 1;
+  margin: 0px;
+}
+
+.nav-link {
+  border: 0;
+  background-color: transparent;
+  font-size: 1.5em;
+}
+
+#footer-fact {
+  margin-top: 20px;
+}
+
+#img-box {
+  text-align: center;
+}
+
+#img-box img {
+  width: 80%;
+  margin: 40px 0;
+  border-radius: 5%;
+}
+
+#main-jumboImage {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: url('../oppRover.jpg') top center;
+  background-size: cover;
+  padding-top: 20em;
+  padding-bottom: 15em;
+}
+
+#rData-info {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+#img-box img:hover {
+  transform: scale(1.1);
+  transition: transform .2s;
+  z-index: 0;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.2rem;
+  }
+
+  #img-box img {
+    width: 80%;
+    margin: 18px;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+@media (min-width: 1224px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  h4 {
+    font-size: 2.5rem;
+  }
+
+  #img-box img {
+    width: 80%;
+    margin: 18px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+@media (min-width: 1824px) {
+  h2 {
+    font-size: 3.8rem;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+
+  ul {
+    font-size: 3rem;
+  }
+
+  #img-box img {
+    width: 80%;
+    margin: 18px;
+  }
+}
